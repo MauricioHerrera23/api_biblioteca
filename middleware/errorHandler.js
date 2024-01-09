@@ -13,3 +13,4 @@ const errorHandler = (err, req, res, next) => {
     res.status(statusCode).json(errorResponse);
     };
     module.exports = errorHandler;
+    
